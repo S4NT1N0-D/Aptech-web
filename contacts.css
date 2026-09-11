@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.anch{
+    text-decoration: none;
+    color: rgb(55 65 81);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.anch:hover{
+    color: grey;
+}
+img{
+    height: 47px;
+    width: 123px;
+    margin-left: 160px;
+    background-color: white;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 570px;
+    height: 64px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 99.9vw;
+    box-shadow: 1px 0px 4px black;
+}
+#navb{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+#pict{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("./pics/aptech3.png");
+    /* filter: brightness(30%); */
+    height: 355px;
+    width: 99.25vw;
+    margin-left: -6px;
+    margin-top: 64px;
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -265px;
+    color: white;
+    font-family: sans-serif;
+}
+span{
+    color: gold;
+}
+p{
+    margin-top: -8px;
+    font-size: 18px;
+}
+h1{
+    font-size: 35px;
+}
+button{
+    border-radius: 10px;
+    background-color: red;
+    height: 40px;
+    width: 100px;
+    padding-top: 3px;
+    color: white;
+}
+#form0{
+    margin-top: 500px;
+    margin-left: 700px;
+    /* border-style: solid; */
+}
+fieldset{
+    height: 623px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: #eaebef;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+input{
+    height: 40px;
+    width: 500px;
+    border-radius: 7px;
+    border-width: 0.5px;
+    border-color: #eaebef;
+    padding-left: 19px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+textarea{
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    border-width: 0.5px;
+    border-color: #eaebef;
+    padding-left: 19px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+button{
+    width: 500px;
+    height: 40px;
+    background-color: brown;
+    border-style: none;
+    font-size: 14px;
+}
+h2{
+    font-size: 19px;
+    font-family: monospace;
+    font-weight: 100;
+    margin-bottom: 6px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#socials{
+    position: absolute;
+    left: 50px;
+}
+.class{
+    color: rgb(152, 161, 179);
+}
+#cwot{
+    margin-top: -750px;
+    position: absolute;
+    left: 50px;
+    gap: 30px;
+}
+#socials{
+    /* background-color: aqua; */
+    width: 50vw;
+    position: relative;
+    top: -623px;
+}
+.logo{
+    background-color: rgb(247, 232, 192);
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+svg{
+    height: 20px;
+    width: 20px;
+    color: rgb(233, 177, 23);
+}
+.black{
+    color: rgb(91, 98, 113);
+    font-size: 14px;
+}
+.yellow{
+    color: rgb(194, 158, 58);
+    font-size: 14px;
+}
+#footer{
+    display: flex;
+    gap: 50px;
+    background-color: rgb(23, 23, 42);
+    height: 410px;
+}
+#one1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 45px;
+}
+#ppp{
+    margin: 0;
+    margin-bottom: 45px;
+    background-color: black;
+}
+#para{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(207, 207, 207);
+}
+#btnb{
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    background-color: goldenrod;
+}
+li{
+    list-style-type: none;
+}
+#hf1{
+    color: white;
+    font-family: sans-serif;
+}
+#hf{
+    color: white;
+    font-family: sans-serif;
+}
+.lii{
+    color: rgb(156, 163, 175);
+    font-family: sans-serif;
+}
+#ul1{
+    position: relative;
+    top: 50px;
+    right: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#slogo{
+    display: flex;
+    gap: 30px;
+}
+#lil{
+    height: 5px;
+    width: 5px;
+}
+svg{
+    color: white;
+}
+#follow{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 50px;
+    right: 60px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 50px;
+}
+#hh{
+    font-family: sans-serif;
+    color: white;
+}
+.b4{
+    color: goldenrod;
+}
+.after{
+    color: rgb(156, 163, 175);
+}

@@ -1,0 +1,107 @@
+.anch {
+    text-decoration: none;
+    color: rgb(55, 65, 81);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.anch:hover {
+    color: grey;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 570px;
+    height: 64px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 1px 0px 4px black;
+    z-index: 1000;
+}
+
+#pic4 {
+    height: 47px;
+    width: 123px;
+    margin-left: 160px;
+    object-fit: contain;
+}
+
+#navb {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+#pict {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("./pics/aptech3.png");
+    height: 355px;
+    width: 100%;
+    margin-top: 64px;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -265px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 147px;
+}
+
+span {
+    color: gold;
+}
+
+p {
+    margin-top: -8px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.ar1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 29%;
+    height: 340px;
+    border-radius: 10px;
+    box-shadow: 0.00001px 0.00001px 1px black, -0.00001px -0.00001px 1px black;
+    margin-bottom: 111px;
+}
+#hero{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    height: 300px;
+}
+.arh2{
+    font-family: sans-serif;
+}
+.arp{
+    font-family: sans-serif;
+    font-weight: 1;
+    padding: 22px;
+    color: rgb(75, 85, 99);
+    font-size: 15px;
+}
+#btn{
+    color: white;
+    background-color: brown;    
+}

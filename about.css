@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{ */
+    /* border-style: solid;
+    border-width: 5px;
+    border-color: red; */
+    /* height: 100vh; */
+    /* width: 100%; */
+/* }
+.anch{
+    text-decoration: none;
+    color: rgb(55 65 81);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.anch:hover{
+    color: grey;
+}
+img{
+    height: 47px;
+    width: 123px;
+    margin-left: 160px;
+    background-color: white;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 570px;
+    height: 64px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 1px 0px 4px black;
+}
+#navb{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+#pict{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(pics/aptech3.png);
+    /* filter: brightness(30%); */
+    /* height: 355px;
+    width: 100%;
+    margin-left: -6px;
+    margin-top: 64px; */
+/* } */
+/* #text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -265px;
+    color: white;
+    font-family: sans-serif;
+}
+span{
+    color: gold;
+}
+p{
+    margin-top: -8px;
+    font-size: 18px;
+}
+h1{
+    font-size: 35px;
+}
+#middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 400px;
+    margin-bottom: 150px;
+}
+#sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+video{
+    border-radius: 30px;
+    background-color: black;
+}
+#mt{
+    text-align: start;
+    width: 300px;
+}
+#icwh{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+#icwi{
+    width: 700px;
+    height: 70px;
+}
+#icw{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#one1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 45px;
+}
+#ppp{
+    margin: 0;
+    margin-bottom: 45px;
+    background-color: black;
+}
+#para{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(207, 207, 207);
+}
+#btnb{
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    background-color: goldenrod;
+}
+li{
+    list-style-type: none;
+}
+#hf1{
+    color: white;
+    font-family: sans-serif;
+}
+#hf{
+    color: white;
+    font-family: sans-serif;
+}
+.lii{
+    color: rgb(156, 163, 175);
+    font-family: sans-serif;
+}
+#ul1{
+    position: relative;
+    top: 50px;
+    right: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#slogo{
+    display: flex;
+    gap: 30px;
+}
+#lil{
+    height: 5px;
+    width: 5px;
+}
+svg{
+    color: white;
+}
+#follow{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 50px;
+    right: 60px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 50px;
+}
+#hh{
+    font-family: sans-serif;
+    color: white;
+}
+.b4{
+    color: goldenrod;
+}
+.after{
+    color: rgb(156, 163, 175);
+}
+footer{
+    display: flex;
+    pad: 50px;
+    gap: 50px;
+    background-color: rgb(23, 23, 42);
+    min-height: 50vh;
+    margin-bottom: 0px;
+    
+} */ 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ---------------- NAVIGATION ---------------- */
+
+.anch {
+    text-decoration: none;
+    color: rgb(55, 65, 81);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.anch:hover {
+    color: grey;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 570px;
+    height: 64px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 1px 0px 4px black;
+    z-index: 1000;
+}
+
+#pic4 {
+    height: 47px;
+    width: 123px;
+    margin-left: 160px;
+    object-fit: contain;
+}
+
+#navb {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+/* ---------------- HERO SECTION ---------------- */
+
+#pict {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("./pics/aptech3.png");
+    height: 355px;
+    width: 100%;
+    margin-top: 64px;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: -265px;
+
+    color: white;
+    font-family: sans-serif;
+}
+
+span {
+    color: gold;
+}
+
+p {
+    margin-top: -8px;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+/* ---------------- MIDDLE SECTION ---------------- */
+
+#middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+
+    margin-top: 400px;
+    margin-bottom: 150px;
+}
+
+#sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mt {
+    text-align: start;
+    width: 300px;
+}
+
+video {
+    border-radius: 30px;
+    background-color: black;
+}
+
+/* ---------------- COLLABORATION SECTION ---------------- */
+
+#icwh {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+#icwi {
+    width: 700px;
+    height: 70px;
+    object-fit: contain;
+    margin: 0;
+}
+
+#icw {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+/* ---------------- FOOTER ---------------- */
+
+footer {
+    display: flex;
+    align-items: flex-start;
+
+    padding: 50px;
+    gap: 50px;
+
+    background-color: rgb(23, 23, 42);
+
+    /*
+       min-height allows the footer to grow
+       instead of forcing it to a fixed height.
+    */
+    min-height: 50vh;
+
+    /*
+       Pushes footer to the bottom when
+       the page content is short.
+    */
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+/* ---------------- FOOTER LEFT ---------------- */
+
+#one1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 45px;
+}
+
+#ppp {
+    width: 180px;
+    height: auto;
+
+    margin: 0;
+    margin-bottom: 45px;
+
+    background-color: black;
+}
+
+#para {
+    font-size: 16px;
+    font-family: sans-serif;
+
+    color: rgb(207, 207, 207);
+
+    margin: 0;
+}
+
+/* ---------------- FOOTER MORE INFO ---------------- */
+
+li {
+    list-style-type: none;
+}
+
+#hf1 {
+    color: white;
+    font-family: sans-serif;
+}
+
+#ul1 {
+    position: relative;
+
+    top: 50px;
+    right: 60px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.lii {
+    color: rgb(156, 163, 175);
+    font-family: sans-serif;
+}
+
+/* ---------------- FOLLOW US ---------------- */
+
+#follow {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+    position: relative;
+    top: 50px;
+    right: 60px;
+}
+
+#hf {
+    color: white;
+    font-family: sans-serif;
+}
+
+#slogo {
+    display: flex;
+    gap: 30px;
+}
+
+.lil {
+    height: 16px;
+    width: 16px;
+}
+
+svg {
+    color: white;
+}
+
+/* ---------------- ENROLL BUTTON ---------------- */
+
+#btnb {
+    height: 40px;
+    width: 180px;
+
+    border-radius: 50px;
+
+    background-color: goldenrod;
+
+    border: 2px solid rgb(156, 163, 175);
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+#btnb:hover {
+    background-color: gold;
+}
+
+/* ---------------- CONTACT ---------------- */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+
+    position: relative;
+    top: 50px;
+}
+
+#hh {
+    font-family: sans-serif;
+    color: white;
+}
+
+.b4 {
+    color: goldenrod;
+}
+
+.after {
+    color: rgb(156, 163, 175);
+}

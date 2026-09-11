@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.anch{
+    text-decoration: none;
+    color: rgb(55 65 81);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.anch:hover{
+    color: grey;
+}
+img{
+    height: 47px;
+    width: 123px;
+    margin-left: 160px;
+    background-color: white;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 570px;
+    height: 64px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 99.9vw;
+    box-shadow: 1px 0px 4px black;
+}
+#navb{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+#pict{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("./pics/aptech3.png");
+    /* filter: brightness(30%); */
+    height: 355px;
+    width: 99.25vw;
+    margin-left: -6px;
+    margin-top: 64px;
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -265px;
+    color: white;
+    font-family: sans-serif;
+}
+span{
+    color: gold;
+}
+pre{
+    margin-top: -8px;
+    font-size: 18px;
+}
+h1{
+    font-size: 35px;
+}
+#span1{
+    color: goldenrod;
+}
+.imgs{
+    height: 400px;
+    width: 350px;
+    border-radius: 30px;
+    margin: 0;
+}
+#imgz{
+    display: flex;
+    gap: 40px;
+}
+#middle{
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 200px;
+}
+h1{
+    font-family: sans-serif;
+}
+#footer{
+    display: flex;
+    gap: 50px;
+    background-color: rgb(23, 23, 42);
+    height: 410px;
+}
+#one1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 45px;
+}
+#ppp{
+    margin: 0;
+    margin-bottom: 45px;
+    background-color: black;
+}
+#para{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(207, 207, 207);
+}
+#btnb{
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    background-color: goldenrod;
+}
+li{
+    list-style-type: none;
+}
+#hf1{
+    color: white;
+    font-family: sans-serif;
+}
+#hf{
+    color: white;
+    font-family: sans-serif;
+}
+.lii{
+    color: rgb(156, 163, 175);
+    font-family: sans-serif;
+}
+#ul1{
+    position: relative;
+    top: 50px;
+    right: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#slogo{
+    display: flex;
+    gap: 30px;
+}
+#lil{
+    height: 5px;
+    width: 5px;
+}
+svg{
+    color: white;
+}
+#follow{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 50px;
+    right: 60px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 50px;
+}
+#hh{
+    font-family: sans-serif;
+    color: white;
+}
+.b4{
+    color: goldenrod;
+}
+.after{
+    color: rgb(156, 163, 175);
+}
